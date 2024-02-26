@@ -9,7 +9,6 @@ public class example1 {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		
-		
 		float salary;
 		float salaryBonus;
 		float newSalary;
@@ -26,6 +25,8 @@ public class example1 {
 		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(localeBR);
 		
 		System.out.println("Seu novo salário é: " + currencyFormatter.format(newSalary));
+		
+		read.close();
 		
 	}	
 }

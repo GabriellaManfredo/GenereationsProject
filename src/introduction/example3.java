@@ -31,8 +31,8 @@ public class example3 {
 		Locale localeBR = new Locale("pt", "BR");
 		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(localeBR);
 		
-		read.close();
-		
 		System.out.println("Seu salário líquido é: " + currencyFormatter.format(netSalary));
+		
+		read.close();
 	}	
 }

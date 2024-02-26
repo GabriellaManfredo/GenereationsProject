@@ -28,6 +28,8 @@ public class example2 {
 		average = (grade1 + grade2 + grade3 + grade4)/4;
 		
 		System.out.printf("Sua média é: %.2f" ,average);
+		
+		read.close();
 	}
 
 }

@@ -7,14 +7,12 @@ public class example4 {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		
-		//variable
 		float number1;
 		float number2;
 		float number3;
 		float number4;
 		float difference;
 		
-		//input
 		System.out.println("Digite seu primeiro número: ");
 		number1 = read.nextFloat();
 		
@@ -29,10 +27,9 @@ public class example4 {
 		
 		difference = (number1*number2)-(number3 * number4);
 		
-		read.close();
-		
-		//output
 		System.out.printf("A diferença entre o produto do n1 e o n2 pelo produto entre o n3 e n4 é: %.2f", difference);
+		
+		read.close();
 
 	}
 
