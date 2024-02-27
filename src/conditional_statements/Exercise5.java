@@ -29,44 +29,52 @@ public class Exercise5 {
 		quantity = read.nextInt();
 		
 		switch (option) {
+		
 		case 1:
 			value = quantity * 10;
 			System.out.println("Produto selecionado: Cachorro Quente");
 			System.out.println("Quantidade selecionado: " + quantity);
 			System.out.println("Valor total: " + currencyFormatter.format(value));
 			break;
+			
 		case 2:
 			value = quantity * 15;
 			System.out.println("Produto selecionado: X-Salada");
 			System.out.println("Quantidade selecionado: " + quantity);
 			System.out.println("Valor total: " + currencyFormatter.format(value));
 			break;
+			
 		case 3:
 			value = quantity * 18;
 			System.out.println("Produto selecionado: X-Bacon");
 			System.out.println("Quantidade selecionado: " + quantity);
 			System.out.println("Valor total: " + currencyFormatter.format(value));
 			break;
+			
 		case 4:
 			value = quantity * 12;
 			System.out.println("Produto selecionado: Bauru");
 			System.out.println("Quantidade selecionado: " + quantity);
 			System.out.println("Valor total: " + currencyFormatter.format(value));
 			break;
+			
 		case 5:
 			value = quantity * 8;
 			System.out.println("Produto selecionado: Refrigerante");
 			System.out.println("Quantidade selecionado: " + quantity);
 			System.out.println("Valor total: " + currencyFormatter.format(value));
 			break;
+			
 		case 6:
 			value = quantity * 13;
 			System.out.println("Produto selecionado: Suco de laranja");
 			System.out.println("Quantidade selecionado: " + quantity);
 			System.out.println("Valor total: " + currencyFormatter.format(value));
+			
 		default:
 			System.out.println("Selecione uma opção válida!");
 		}
+		
 		read.close();
 	}
 

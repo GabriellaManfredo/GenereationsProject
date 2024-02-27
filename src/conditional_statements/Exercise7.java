@@ -25,22 +25,27 @@ public class Exercise7 {
 		option = read.nextInt();
 		
 		switch (option) {
+		
 		case 1:
 			result = number1 + number2;
 			System.out.println(number1 + " + " + number2 + " = " + result);
 			break;
+			
 		case 2:
 			result = number1 - number2;
 			System.out.println(number1 + " - " + number2 + " = " + result);
 			break;
+			
 		case 3:
 			result = number1 * number2;
 			System.out.println(number1 + " * " + number2 + " = " + result);;
 			break;
+			
 		case 4:
 			result = number1 / number2;
 			System.out.println(number1 + " / " + number2 + " = " + result);;
 			break;
+			
 		default:
 			System.out.println("Operação inválida!");
 		}

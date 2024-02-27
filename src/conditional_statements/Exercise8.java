@@ -24,12 +24,15 @@ public class Exercise8 {
 		code = read.nextInt();
 		
 		switch (code) {
+		
 		case 1:
 			System.out.println("Saldo: " + currencyFormatter.format(accountBalancy));
 			break;
+			
 		case 2:
 			System.out.println("Qual valor deseja sacar? ");
 			value = read.nextFloat();
+			
 			if(value > accountBalancy) {
 				System.out.println("Saldo insuficiente!");
 			} else {
@@ -37,12 +40,14 @@ public class Exercise8 {
 				System.out.println("Saldo: " + currencyFormatter.format(accountBalancy));
 			}	
 			break;
+			
 		case 3:
 			System.out.println("Qual valor deseja depositar? ");
 			value = read.nextFloat();
 			accountBalancy += value;
 			System.out.println("Saldo: " + currencyFormatter.format(accountBalancy));
 			break;
+			
 		default:
 			System.out.println("Operação inválida!");
 		}
