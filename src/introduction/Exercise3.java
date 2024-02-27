@@ -4,7 +4,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class example3 {
+public class Exercise3 {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		

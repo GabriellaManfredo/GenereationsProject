@@ -2,7 +2,7 @@ package introduction;
 
 import java.util.Scanner;
 
-public class compl_exercise2 {
+public class ComplExercise2 {
 
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
