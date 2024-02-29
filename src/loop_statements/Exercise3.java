@@ -1,4 +1,4 @@
-package conditional_loop;
+package loop_statements;
 
 import java.util.Scanner;
 
