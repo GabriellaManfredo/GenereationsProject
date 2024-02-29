@@ -20,7 +20,7 @@ public class Exercise5 {
 			
 		} while (number != 0);
 		
-		System.out.println("A soma dos números positivos é: " +sum);
+		System.out.println("A soma dos números positivos é: " + sum);
 		read.close();
 	}
 

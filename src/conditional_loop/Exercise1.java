@@ -22,10 +22,9 @@ public class Exercise1 {
 			
 			for (i = number1; i <= number2; i++) {
 				if(i % 3 == 0 && i % 5 == 0) {
-					System.out.println(i + " é múltiplo de 3 e 5\n");
+					System.out.println(i + " é múltiplo de 3 e 5. \n");
 					
 				}
-				read.close();
 			}
 		}	
 
