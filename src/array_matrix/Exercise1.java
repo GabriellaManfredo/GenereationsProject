@@ -33,8 +33,6 @@ public class Exercise1 {
 			System.out.println("O número " + number + " não foi encontrado!");
 		}
 		
-		
-		
 	}
 
 }
