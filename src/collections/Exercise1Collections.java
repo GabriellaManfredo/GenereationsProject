@@ -7,11 +7,12 @@ import java.util.Scanner;
 public class Exercise1Collections {
 
 	public static void main(String[] args) {
+		
 		Scanner read = new Scanner(System.in); 
 		
 		ArrayList<String> colors = new ArrayList<String>();
-		String colorAdd;
 		
+		String colorAdd;
 		
 		for (int i = 0; i < 5; i++) {
 			System.out.println("Digite a " + (i + 1) + " cor: ");

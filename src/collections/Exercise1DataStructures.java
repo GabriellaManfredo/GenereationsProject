@@ -31,6 +31,7 @@ public class Exercise1DataStructures {
 
 		
 			switch(option){
+			
 				case 1:
 					System.out.println("Digite o nome do cliente: ");
 					name = read.nextLine();
