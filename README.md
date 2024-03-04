@@ -35,6 +35,10 @@ This project was carried out as part of the Generation Bootcamp, providing a sol
 If you have any questions or suggestions related to this project, don't hesitate to get in touch.
 
 Gabriella Manfredo
+
+
 linkedin.com/in/gabriellamanfredo/
+
+
 ###
 **Note:** This project is for educational and learning purposes only. All code examples are simplified and may not represent the best development practices in a production environment.
